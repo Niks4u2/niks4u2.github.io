@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/icon.gif">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/92e9dde9ec.js" crossorigin="anonymous"></script>
+    <title>Nikhil Jain</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand text-warning fw-bold fs-2 animate__animated animate__bounce">N.J</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link lead px-3">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#work" class="nav-link lead px-3">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link lead px-3">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Showcase -->
+    <section class="bg-dark text-light p-5 p-lg-0 pt-lg-4 text-center text-sm-start" id="about">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div class="p-5 mt-5 mb-5">
+                    <h1 class="animate__animated animate__pulse">Hey, I'm<span class="text-warning"> Nikhil</span></h1>
+                    <p class="lead my-4 animate__animated animate__backInLeft animate__delay-1s">I'm a web developer who
+                        loves to solve real problems with awesome people.</p>
+                    <button type="button"
+                        class="btn btn-secondary animate__animated animate__backInLeft animate__delay-2s">
+                        <a download href="https://drive.google.com/uc?id=1tAWKp3PJ6HDhwXhUrDLTJg3zLgqMtkv1&export=download"
+                            class="stretched-link link-light text-decoration-none" target="_blank">Download
+                            Resume</a></button>
+                </div>
+                <img class="img-fluid w-50" src="./assets/Hello.svg" alt="showcase">
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="work" class="p-5 bg-light">
+        <div class="container">
+            <h2 class="text-center text-dark pb-5">These are some of my projects</h2>
+            <div class="row g-4">
+                <!-- Card 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card bg-dark">
+                        <img src="./assets/Tribute.PNG" class="img-fluid" alt="tribute" style="height: 25rem;">
+                        <div class="card-body text-center">
+                            <a href="https://codepen.io/niks4u2/pen/gOmEvGy" target="_blank"
+                                class="stretched-link link-light text-decoration-none">
+                                <h3 class="card-title">Tribute Page</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card bg-dark">
+                        <img src="./assets/ran-quote-gen.PNG" class="img-fluid" alt="quote-gen-pic"
+                            style="height: 25rem;">
+                        <div class="card-body text-center">
+                            <a href="#" target="_blank" class="stretched-link link-light text-decoration-none">
+                                <h3 class="card-title">Random Quote Generator</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card bg-dark">
+                        <img src="./assets/wiki-viewer.PNG" class="img-fluid" alt="toc-tac-toe-pic"
+                            style="height: 25rem;">
+                        <div class="card-body text-center">
+                            <a href="#" target="_blank" class="stretched-link link-light text-decoration-none">
+                                <h3 class="card-title">Calculator</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="p-5 bg-dark text-light" id="contact">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md p-5">
+                    <h2>Let's work together...</h2>
+                    <p class="lead">
+                        Get in touch via the form below, or by emailing
+                        <a class="text-decoration-none link-warning"
+                            href="mailto:golu.nikhil44@gmail.com">golu.nikhil44@gmail.com</a>
+                    </p>
+                    <form name="contact-form" action="">
+                        <div class="mb-3">
+                            <label for="name" class="col-form-label">Name:</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="col-form-label">Email:</label>
+                            <input type="text" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="col-form-label">Message:</label>
+                            <textarea name="message" id="message" rows="6" class="form-control" required></textarea>
+                        </div>
+                        <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal" onclick="submitForm()">Submit</button>
+                    </form>
+                </div>
+                <div class="col-md">
+                    <img src="./assets/work_together.svg" class="img-fluid" alt="learn">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-info text-center text-white position-relative">
+        <div class="container">
+            <div class="row">
+                <div class="col-md p-5">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <a href="https://www.facebook.com/niks4u2/"><i
+                                    class="fab fa-facebook-square fa-2x text-decoration-none link-dark"></i></a>
+                        </div>
+                        <div class="col-md-2">
+                            <a href="https://www.instagram.com/nikkuu_u/"><i
+                                    class="fab fa-instagram-square fa-2x text-decoration-none link-dark"></i></a>
+                        </div>
+                        <div class="col-md-2">
+                            <a href="https://twitter.com/Nikhil4uJain"><i
+                                    class="fab fa-twitter-square fa-2x text-decoration-none link-dark"></i></a>
+                        </div>
+                        <div class="col-md-2">
+                            <a href="https://github.com/Niks4u2"><i
+                                    class="fab fa-github-square fa-2x text-decoration-none link-dark"></i></a>
+                        </div>
+                        <div class="col-md-2">
+                            <a href="#" class="link-dark">
+                                <i class="fas fa-arrow-up fa-2x"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md p-5 text-dark">
+                    <p class="lead fw-bold"> Copyright &copy 2021 Nikhil Jain </p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Message</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Thank you for getting in touch, will reach back to you in a short time.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function submitForm() {
+            // Get the first form with the name
+            // Usually the form name is not repeated
+            // but duplicate names are possible in HTML
+            // Therefore to work around the issue, enforce the correct index
+            var frm = document.getElementsByName('contact-form')[0];
+            // Submit the form
+            frm.reset();  // Reset all form data
+            return false; // Prevent page refresh
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+html {
+    scroll-padding-top: 60px;
+}
+
+
+body::before {
+    display: block;
+    content: '';
+    height: 50px;
+}
+
+@media(min-width: 768px)
+{
+    .news-input {
+        width: 50%;
+    }
+}
