@@ -9,9 +9,9 @@ body::before {
     height: 50px;
 }
 
-@media(min-width: 768px)
+@media(max-width: 768px)
 {
-    .news-input {
-        width: 50%;
+    #contact-img {
+        display: none;
     }
 }
