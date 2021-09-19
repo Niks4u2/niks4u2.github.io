@@ -93,10 +93,10 @@
                 <!-- Card 3 -->
                 <div class="col-md-6 col-lg-4">
                     <div class="card bg-dark">
-                        <img src="./assets/wiki-viewer.PNG" class="img-fluid" alt="toc-tac-toe-pic"
+                        <img src="./assets/calculator.PNG" class="img-fluid" alt="toc-tac-toe-pic"
                             style="height: 25rem;">
                         <div class="card-body text-center">
-                            <a href="#" target="_blank" class="stretched-link link-light text-decoration-none">
+                            <a href="https://codepen.io/niks4u2/pen/WNOzEXd" target="_blank" class="stretched-link link-light text-decoration-none">
                                 <h3 class="card-title">Calculator</h3>
                             </a>
                         </div>
@@ -199,12 +199,8 @@
 
     <script>
         function submitForm() {
-            // Get the first form with the name
-            // Usually the form name is not repeated
-            // but duplicate names are possible in HTML
-            // Therefore to work around the issue, enforce the correct index
+            // Get the form with the name
             var frm = document.getElementsByName('contact-form')[0];
-            // Submit the form
             frm.reset();  // Reset all form data
             return false; // Prevent page refresh
         }
